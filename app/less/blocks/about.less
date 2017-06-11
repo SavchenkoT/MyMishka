@@ -1,0 +1,41 @@
+.about {
+    .container();
+    margin-bottom: 60px;
+}
+
+.about__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about__item {
+    padding-top: 30px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+@media all and @tablet-width {
+    .about__items {
+        .clearfix()
+    }
+
+    .about__item {
+        width: 255px;
+        float: left;
+        text-align: left;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .about__item:nth-child(even) {
+        margin-left: 80px;
+    }
+}
+
+@media all and @desktop-width {
+    .about{
+        margin-left: 16.666666666666666%;
+    }
+}

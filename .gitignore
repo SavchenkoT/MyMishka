@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+css/*.css
+node_modules/
+Thumbs.d
